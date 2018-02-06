@@ -1,0 +1,16 @@
+<div class="wrapper" *ngIf="hideInput && isHome">
+    <div class="container-fluid buttonDiv" *ngIf="showHide">
+        <h1 class="display-1" style="color: white; margin-top: 20%; font-weight: light;">My Weather</h1>
+        <button class=" startButton " type="button" (click)="changeShowStatus()" class="btn btn-outline-primary">Start!</button>
+    </div>
+    <div class="container-fluid" *ngIf="!showHide && hideInput" style="text-align:center;">
+        <form #locationForm="ngForm" [@fadeInOut] (ngSubmit)="registerLocation(locationForm); changeHideInput(); redirectToWeather();">
+            <label for="city" class="display-4" style="margin-top: 20%; color:white;">Enter a city.</label>
+            <input type="text" class="form-control" name="city" id="city" placeholder="City" style="width:40%;margin-left: 30%" ngModel>
+            <button class="startButton" type="submit" class="btn btn-outline-primary" style="margin-top: 1%">Start!</button>
+
+        </form>
+    </div>
+
+</div>
+<router-outlet></router-outlet>

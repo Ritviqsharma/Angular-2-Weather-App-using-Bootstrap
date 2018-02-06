@@ -1,0 +1,198 @@
+#weatherDiv {
+    text-align: center;
+    margin-top: 15%;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    padding-top: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 2px;
+    padding-bottom: 2%;
+}
+
+#weatherDiv p {
+    color: black;
+    margin-top: 2%;
+    display: inline;
+}
+
+.weatheri {
+    color: yellow;
+    font-size: 80px;
+}
+
+#info {
+    padding-top: 1%;
+    height: 50%;
+    display: flex;
+    flex: wrap;
+    overflow-x: scroll;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-left: 4%;
+}
+
+.infoBox {
+    margin-right: 9%;
+    margin-left: 0;
+    padding: 0;
+}
+
+.leftButton {
+    position: absolute;
+    right: 94%;
+    transform: translateY(220%);
+    opacity: 0.6;
+    color: black;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px;
+}
+
+.rightButton {
+    position: absolute;
+    left: 94%;
+    transform: translateY(220%);
+    opacity: 0.6;
+    color: black;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px;
+}
+
+.leftButton:hover {
+    opacity: 0.9;
+    color: grey;
+    transition: 0.6s ease;
+}
+
+.rightButton:hover {
+    opacity: 0.9;
+    color: grey;
+    transition: 0.6s ease;
+}
+
+.sunny {
+    background-image: url('./backgrounds/sunny.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
+
+.snow {
+    background-image: url('./backgrounds/snow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
+
+.rain {
+    background-image: url('./backgrounds/rain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
+
+.haze {
+    background-image: url('./backgrounds/haze.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
+
+.clouds {
+    background-image: url('./backgrounds/clouds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
+
+.thunderstorm {
+    background-image: url('./backgrounds/thunderstorm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
+
+.none {
+    background-image: url('./backgrounds/none.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
+
+.clear {
+    background-image: url('./backgrounds/clear.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    font-family: 'Scout', arial, sans-serif;
+}
